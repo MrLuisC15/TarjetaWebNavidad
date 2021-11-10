@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'MiLetraNavidad';
-    src: url('titulo.ttf')  format('truetype');
+    src: url('titulo.regular.ttf')  format('truetype');
 }
 
 h1{
-    font-family: MiLetraNavidad;
+    font-family: 'MiLetraNavidad', sans-serif;
     text-align: center;
 }
