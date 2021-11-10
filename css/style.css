@@ -13,3 +13,11 @@ h1{
 body{
     background-color: red;
 }
+
+#tarjeta {
+    border-radius: 20px;
+    background-color: white;
+    height: 300px;
+    width: 50%;
+    margin: auto;
+}
