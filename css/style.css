@@ -7,4 +7,9 @@ h1{
     font-family: 'MiLetraNavidad', sans-serif;
     text-align: center;
     font-weight: xx-large;
+    color:white;
+}
+
+body{
+    background-color: red;
 }
