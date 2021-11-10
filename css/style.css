@@ -16,8 +16,9 @@ body{
 
 #tarjeta {
     border-radius: 20px;
-    background-color: white;
+    /*background-color: white;*/
     height: 300px;
     width: 50%;
     margin: auto;
+    background-image: url('gato.gif');
 }
