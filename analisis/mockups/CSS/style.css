@@ -1,0 +1,26 @@
+header{
+    height: 600px;
+    background-color: red;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 20px;
+}
+
+nav{
+    background-color: bisque;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+article{
+    min-height: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+}
