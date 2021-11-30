@@ -1,24 +1,88 @@
 @font-face {
-    font-family: 'MiLetraNavidad';
-    src: url('titulo.ttf')  format('truetype');
+    font-family: 'LetraNavidad';
+    src: url('../recursos/letranavidad.ttf')  format('truetype');
 }
 
-h1{
-    font-family: 'MiLetraNavidad', sans-serif;
+body{
+    margin: 0;
+}
+header{
+    margin: 0;
+    height: 100vh;
+    background-color: red;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    font-family: 'LetraNavidad', sans-serif;
     text-align: center;
     font-size: 5em;
     color:white;
 }
 
-body{
-    background-color: red;
+header a{
+    height: 95vh;
+    background: url('../img/sobre.png');
+}
+header a:hover{
+    background: url('../img/sobreAbierto.png');
 }
 
-#tarjeta {
-    border-radius: 20px;
-    /*background-color: white;*/
-    height: 300px;
-    width: 50%;
+nav{
+    height: 10vh;
+    width: 88%;
+    background-color: lime;
     margin: auto;
-    /*background-image: url('img/.gif');*/
+    margin-top: 10px;
+    border-radius: 10px;
 }
+article{
+    min-height: 400px;
+    width: 94%;
+    background-color: gold;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    margin: auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: fixed;
+    bottom: 0;
+    z-index: -2;
+}
+
+article iframe{
+    width: 60%;
+    height: 450px;
+    z-index: 10;
+    background-color: rgb(255, 0, 255);
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+article div .caja{
+    margin-bottom: 260px;
+    width: 40%;
+    height: 450px;
+    background-color: wheat;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 60px;
+}
+article #cajas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex:15%;
+    margin: 0px 30px;
+}
+
