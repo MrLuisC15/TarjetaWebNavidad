@@ -10,8 +10,8 @@ header{
     margin: 0;
     height: 100vh;
     background-color: red;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
 
     font-family: 'LetraNavidad', sans-serif;
     text-align: center;
@@ -19,12 +19,9 @@ header{
     color:white;
 }
 
-header a{
+header img{
     height: 95vh;
-    background: url('../img/sobre.png');
-}
-header a:hover{
-    background: url('../img/sobreAbierto.png');
+
 }
 
 nav{
@@ -50,7 +47,7 @@ article{
 footer{
     height: 200px;
     width: 100%;
-    background-color: red;
+    background-color: green;
     margin: auto;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
