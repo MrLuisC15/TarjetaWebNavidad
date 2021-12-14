@@ -83,3 +83,17 @@ article #cajas{
     margin: 0px 30px;
 }
 
+#absolutoIzq{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 200px;
+}
+
+#absolutoDer{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 200px;
+
+}
